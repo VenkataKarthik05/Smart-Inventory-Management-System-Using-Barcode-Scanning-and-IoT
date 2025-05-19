@@ -3,7 +3,7 @@ from google.oauth2 import service_account
 
 scopes = ['https://www.googleapis.com/auth/drive']
 service_account_file = 'key.json'
-PARENT_FOLDER_ID = '1LE1py3N1RrgvgBY1GLN2iose8SmGPuOO'
+PARENT_FOLDER_ID = ''
 
 def authenticate():
     credentials = service_account.Credentials.from_service_account_file(service_account_file, scopes=scopes)
